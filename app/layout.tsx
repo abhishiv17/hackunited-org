@@ -12,6 +12,7 @@ import MotionLayer from "@/components/motion-layer";
 import JourneyRail from "@/components/journey/journey-rail";
 import RouteTransition from "@/components/journey/route-transition";
 import NextStop from "@/components/journey/next-stop";
+import ClickSpark from "@/components/obsidian/click-spark";
 
 const sans = Bricolage_Grotesque({
   subsets: ["latin"],
@@ -108,6 +109,7 @@ export default function RootLayout({
           <MotionLayer />
           <JourneyRail />
           <RouteTransition />
+          <ClickSpark />
         </ThemeProvider>
       </body>
     </html>
